@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="/Style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+  <body class="Fundo">
+
+    <!-- NavBar -->
+    <header>
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body fixed-top">
+        
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="/imagens/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item letra">
+                <a class="nav-link" href="#">Sobre Nós</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Cardápio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Local</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+              <button class="btn btn-outline-warning" submit>Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+      <!-- carrossel -->
+      <main>
+      <div id="carrosse-cafe&cia" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carrosse-cafe&cia" data-bs-slide-to="0"
+           class="active" aria-current="true" aria-label="Slide 1" ></button>
+          <button type="button" data-bs-target="#carrosse-cafe&cia" data-bs-slide-to="1" 
+          aria-label="Slide 2" ></button>
+          <button type="button" data-bs-target="#carrosse-cafe&cia" data-bs-slide-to="2" 
+          aria-label="Slide 3" ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="1000">
+            <img src="/imagens/carossel1.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>A melhor experiência gastronômica</h5>
+              <p>Você vai experimentar os melhores lanches do Brasil e do Mundo.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/imagens/carossel2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>A melhor experiência gastronômica</h5>
+                <p>Você vai experimentar os melhores lanches do Brasil e do Mundo.</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/imagens/carrosel3.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>A melhor experiência gastronômica</h5>
+                <p>Você vai experimentar os melhores lanches do Brasil e do Mundo.</p>
+              </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carrosse-cafe&cia" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carrosse-cafe&cia" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- citação -->
+
+      <figure>
+        <blockquote class="blockquote">
+          <h3 class="fw-lighter text-center fst-italic mt-5">Um lanchinho por semana não faz mal a ninguém e, se fizer, vou fingir que é mentira</h3>
+        </blockquote>
+        <figcaption class="blockquote-footer text-center mb-5 ">
+        <cite title="Source Title">42FRASES</cite>
+        </figcaption>
+      </figure>
+
+    <!-- Cards centrais-->
+    
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/imagens/card1.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Nós somos apaixonados por lanches. </h5>
+                  <p class="card-text">Acreditamos que um bom lanche pode transformar o seu dia, trazendo conforto e energia para enfrentar qualquer desafio. Desde um simples sanduíche até um prato gourmet, cada mordida é uma experiência única, capaz de fazer diferença em sua jornada. Este é um convite para explorar o mundo dos lanches, onde cada sabor conta uma história e cada pedaço pode mudar o seu dia para melhor</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/imagens/card2.avif" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">A nossa paixão por lanches é inegável. </h5>
+                  <p class="card-text">Acreditamos firmemente que um bom lanche pode não só saciar a fome, mas também unir as pessoas, criar momentos memoráveis e até mesmo inspirar mudanças. Desde um bolo caseiro até um prato elaborado, cada mordida é uma oportunidade para explorar novos sabores, texturas e experiências. Venha conosco nessa jornada gastronômica e descubra como um simples lanche pode fazer toda a diferença em sua vida.</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+        <!-- Cardapio -->
+       
+        <section id="menu" class="container">
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active " id="hamburgue-tab" data-bs-toggle="tab" data-bs-target="#hamburgue-tab-pane" type="button" role="tab" aria-controls="hamburgue-tab-pane" aria-selected="true">Hamburgue</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="bebidas-tab" data-bs-toggle="tab" data-bs-target="#bebidas-tab-pane" type="button" role="tab" aria-controls="bebidas-tab-pane" aria-selected="false">Bebidas</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="sobremesas-tab" data-bs-toggle="tab" data-bs-target="#sobremesas-tab-pane" type="button" role="tab" aria-controls="sobremesas-tab-pane" aria-selected="false">Sobremesas</button>
+            </li>
+            
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="hamburgue-tab-pane" role="tabpanel" aria-labelledby="hamburgue-tab" tabindex="0">
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card card-menu">
+                    <img src="/imagens/Xhamburgue1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">X-Burgue</h5>
+                      <p class="card-text">R$7,00</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card card-menu">
+                    <img src="/imagens/xfrango.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">X-Frango</h5>
+                      <p class="card-text">R$8,00</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card card-menu">
+                    <img src="/imagens/xpicanha.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">X-Picanha</h5>
+                      <p class="card-text">R$15,00</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card card-menu">
+                    <img src="/imagens/baconburgue.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">X-Bacon</h5>
+                      <p class="card-text">R$13,00</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card card-menu">
+                    <img src="/imagens/fritas.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Fritas</h5>
+                      <p class="card-text">R$6,00</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card card-menu">
+                    <img src="/imagens/nuggets.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Nuggets</h5>
+                      <p class="card-text">R$7,00</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="bebidas-tab-pane" role="tabpanel" aria-labelledby="bebidas-tab" tabindex="0">
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card card-menu">
+                    <img src="/imagens/guaravita.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Guaravita</h5>
+                      <p class="card-text">R$3,00</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card card-menu">
+                    <img src="/imagens/pitchulinhas.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Refri 200ml</h5>
+                      <p class="card-text">R$2,50</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card card-menu">
+                    <img src="/imagens/lata.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Lata</h5>
+                      <p class="card-text">R$6,00</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card card-menu">
+                    <img src="/imagens/600ml.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Refri 600ml</h5>
+                      <p class="card-text">R$8,00</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card card-menu">
+                    <img src="/imagens/refri1l.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Refri 1L</h5>
+                      <p class="card-text">R$10,00</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card card-menu">
+                    <img src="/imagens/refri2l.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Refri 2L</h5>
+                      <p class="card-text">R$13,00</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="sobremesas-tab-pane" role="tabpanel" aria-labelledby="sobremesas-tab" tabindex="0">Sobremesas</div>
+          </div>
+      </section>
+         
+      <!-- Localização -->
+      <section class="modal1">
+      <button type="button" class="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Launch demo modal
+      </button>
+      
+      <!-- Modal -->
+      
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <!-- Footer -->
+  <footer class="text-center bg-dark p-5 mt-5  text-light">
+    <img width="80px" src="/imagens/logo.png" alt="">
+    <span class="mt-2 mb-0 fw-bold">
+      Garagem Lanches | O melhor para sua fome
+    </span>
+    <span>
+      11-6542-8254
+    </span>
+  
+    <a href=""><img class="hamburg-zap" width="40px" src="/imagens/zap.jpg" alt=""></a>
+  
+   </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+</body>
+
+
+    
+</html>

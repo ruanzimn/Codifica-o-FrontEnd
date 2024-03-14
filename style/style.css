@@ -1,0 +1,60 @@
+
+.Fundo{
+    background-color:rgb(44, 207, 191);
+}
+
+.navbar-brand img{
+    width: 100px;
+}
+
+.carousel-item{
+    height: 500px;
+    
+}
+
+.carousel-item img{
+    height: 200%;
+    object-fit: cover;
+    object-position:bottom;
+}
+
+.col-md-4 img{
+    height: 100%;
+    
+}
+
+.container{
+    margin-top: 20px;
+}
+
+.card-centrais{
+    height: 350px;
+
+}
+
+.card-menu img{
+    height: 300px;
+}
+
+.nav-item a{
+    color: white;
+}
+
+.card-body{
+    background-color:black;
+}
+
+.card-body h5,p{
+    color: white;
+}
+
+#console-tab,#controles-tab,#jogos-tab{
+    background-color: black;
+    color: white;
+}
+
+.hamburg-zap{
+    position:fixed;
+    bottom: 40px;
+    right: 10px;
+}

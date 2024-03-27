@@ -1,0 +1,8 @@
+.header{
+    background-color: orange;
+    color: #f12;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    padding: 32px;
+}
